@@ -1,0 +1,32 @@
+//estilo pantalla grande
+@media (min-width: 768px){
+
+.contenedor__principal-imagen{
+    width: 100%;
+}
+
+.contenedor__principal h2{
+   margin:10px 0 25px 0;
+}
+
+}
+
+
+
+
+//estilo pantalla movil
+@media (max-width: 767.98px){
+    .contenedor__principal-imagen{
+        width: 75%;
+    }
+    
+    .contenedor__principal h2{
+      text-align: center;
+      position: relative;
+      right: 40px;
+      margin:15px;
+    }
+
+  
+ 
+}

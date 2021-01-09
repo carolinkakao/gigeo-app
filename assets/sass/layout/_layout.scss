@@ -1,0 +1,19 @@
+
+//estilo pantalla grande
+@media (min-width: 768px){
+.contenedor{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(4,auto);
+    grid-gap: 20px;
+    
+}
+}
+
+
+//estilo pantalla movil
+@media (max-width: 767.98px){
+    .profile{
+        margin-top:70px;
+    }
+    }

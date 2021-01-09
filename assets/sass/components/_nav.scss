@@ -1,0 +1,30 @@
+//estilo pantalla grande
+@media (min-width: 768px){
+
+.contenedor__nav__titulo svg{
+    width: 200px;
+    
+}
+
+.contenedor__nav__lista
+    i {
+        padding: 5px 5px 15px 15px;
+        font-size: 20px;
+    }
+
+    .contenedor__nav{
+        padding: 10px 20px 5px;
+    }
+}
+
+   //estilo pantalla movil
+   @media (max-width: 767.98px) {
+    .contenedor__nav__titulo svg{
+        width: 180px;  
+    }
+    .contenedor__nav__barra{
+        font-size:40px;
+        margin-right: 700px;
+    }
+
+   }

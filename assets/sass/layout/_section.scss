@@ -1,0 +1,42 @@
+//estilo pantalla grande
+@media (min-width: 768px){
+.profile {
+    display: flex;
+    justify-content: space-between;
+    &__perfil {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+}
+
+
+//estilo pantalla movil
+@media (max-width: 767.98px){
+    .profile__perfil {
+        &__img-perfil {
+            width: 100px;
+            height: 100px;
+           
+            border-radius: 50%;
+            border: 1px solid #ccc;
+        }
+        &__nombres {
+          position:relative;
+          left:110px;
+          bottom: 70px;
+            
+            }
+                       }
+
+        .profile__buttons{
+            display:none;}
+    
+
+            hr{
+                display:none;
+            }
+            
+}
+ 
